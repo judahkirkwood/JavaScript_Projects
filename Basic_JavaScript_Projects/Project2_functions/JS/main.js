@@ -1,7 +1,15 @@
-var (sent1) = "This is the first half";
+// Defining the JavaScript function that uses the += operator
+function concatenateStrings() {
+    // Initialize an empty string
+    let result = "";
 
-function My_First_Function() {
-    var str = "This is the button text!"
+    // Concatenating strings using += 
+    result += "...and here";
+    result += "...we... GO!";
+    
+    // Get a reference to the output paragraph element by its ID
+    const outputParagraph = document.getElementById("outputParagraph");
 
-    document.getElementById("Button_Text").innerHTML = str;
+    // Display the concatenated string in the paragraph
+    outputParagraph.textContent = "Result: " + result;
 }
