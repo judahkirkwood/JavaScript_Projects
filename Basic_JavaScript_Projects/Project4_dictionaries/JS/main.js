@@ -9,3 +9,9 @@ function my_Dictionary() { //Library containing various traits of Cats
     delete Cats. Breed; // delete
     document.getElementById("Dictionary").innerHTML = Cats.Breed; //publish/show
 }
+
+
+
+document.write(typeof "Word");
+
+document.write("10" + 5);
