@@ -34,3 +34,13 @@ checkIsNaN(inputValue2);
 
 document.getElementById("Test").innerHTML = isNaN('This is a string');
 document.getElementById("Test").innerHTML = isNaN('007');
+
+function count_To_Ten() {
+    var Digit = "";
+    var X = 1;
+    while (X < 11) {
+        Digit += "<br>" + X;
+        X++;
+    }
+    document.getElementById("Counting_to_Ten").innerHTML = Digit;
+}
